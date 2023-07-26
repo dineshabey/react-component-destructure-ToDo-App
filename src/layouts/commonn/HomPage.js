@@ -11,7 +11,9 @@ export default function HomPage() {
                 <div>
                     <h2>ToDo List</h2>
                     <NewTaskAdd />
-                    <ToDoList />
+                    <div style={{marginTop:'20px'}}>
+                        <ToDoList />
+                    </div>
                 </div>
             </div>
 
