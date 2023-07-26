@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function SingaleToDoList({ title, isCompleted, isBold }) {
+export default function SingaleToDoList({ title, isCompleted, isBold, testColor }) {
   return (
     <div style={{
       display: 'flex',
@@ -12,7 +12,7 @@ export default function SingaleToDoList({ title, isCompleted, isBold }) {
 
     }}>
       <input type={'checkbox'} checked={isCompleted} />
-      <p style={{ fontWeight: isBold ? 'bold' : '' }}>{title}</p>
+      <p style={{ fontWeight: isBold ? 'bold' : '', color:testColor  }}>{title}</p>
       <button>Delete</button>
     </div>
   )

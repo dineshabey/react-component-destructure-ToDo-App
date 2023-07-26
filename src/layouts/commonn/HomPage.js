@@ -61,11 +61,11 @@ export default function HomPage() {
                     <h2>ToDo List</h2>
                     <NewTaskAdd />
                     <div style={{ marginTop: '20px' }}>
-                        <ToDoList toDoListData={toDoListData1} isBold={true} />
+                        <ToDoList toDoListData={toDoListData1} isBold={true} testColor='red' />
                         <br /><hr />
-                        <ToDoList toDoListData={toDoListData2} />
+                        <ToDoList toDoListData={toDoListData2} testColor='blue' />
                         <br /><hr />
-                        <ToDoList toDoListData={toDoListData3} />
+                        <ToDoList toDoListData={toDoListData3} testColor='orange' />
                     </div>
                 </div>
             </div>
